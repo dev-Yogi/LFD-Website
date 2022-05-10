@@ -19,8 +19,7 @@ get_header(); ?>
 			<div class="archive-posts-wrapper ">
 			<?php if ( have_posts() ) :
 				$abletone_blog_title = get_theme_mod( 'abletone_recent_posts_heading', esc_html__( 'News', 'abletone' ) );
-
-				if ( $abletone_blog_title ) : ?>
+						if ( $abletone_blog_title ) : ?>
 				<div class="section-heading-wrapper">
 					<div class="section-title-wrapper">
 						<h2 class="section-title"><?php echo esc_html( $abletone_blog_title ); ?></h2>
@@ -45,6 +44,8 @@ get_header(); ?>
 						?>
 					</div><!-- .archive-post-wrap -->
 				</div><!-- .section-content-wrap -->
+
+		
 
 				<?php abletone_content_nav(); ?>
 

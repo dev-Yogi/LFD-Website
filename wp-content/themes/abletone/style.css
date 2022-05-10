@@ -1751,7 +1751,8 @@ body.menu-open {
   -webkit-text-shadow: none;
   text-shadow: none;
   text-align: center;
-  width: 36px; }
+  width: 36px;
+}
 
 /* Dropdown Toggle */
 .dropdown-toggle {
@@ -2365,7 +2366,7 @@ body.infinite-scroll.infinity-end .archive-posts-wrapper .section-content-wrappe
 .site-branding {
   /* Avoid overflowing wide custom logo in small screens in Firefox and IEs */
   margin: 14px auto 14px 0;
-  max-width: 100%;
+  max-width: 30%;
   min-width: 0;
   text-align: left;
   width: auto;
@@ -2373,7 +2374,9 @@ body.infinite-scroll.infinity-end .archive-posts-wrapper .section-content-wrappe
 
 .custom-logo {
   display: block;
-  max-width: 250px; }
+  max-width: 250px; 
+
+}
 
 .wp-custom-logo .custom-logo-link {
   display: block; }
@@ -2395,7 +2398,12 @@ body.infinite-scroll.infinity-end .archive-posts-wrapper .section-content-wrappe
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   width: auto;
-  margin-right: -20px; }
+  margin-right: -20px; 
+
+}
+.site-header-menu a{
+	color: black;
+}
 
 .site-branding {
   display: -webkit-box;

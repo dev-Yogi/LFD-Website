@@ -139,6 +139,7 @@ body.menu-open {
     line-height: 1.375;
     margin: 0 auto;
     text-align: right;
+
 }
 
 .navigation-default #primary-menu-wrapper .menu-inside-wrapper {
@@ -150,6 +151,7 @@ body.menu-open {
 .menu-toggle.selected {
     background-image: none;
     background-color: transparent;
+		color: white;
 }
 
 #primary-search-wrapper .menu-toggle,

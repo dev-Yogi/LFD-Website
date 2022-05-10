@@ -1,5 +1,3 @@
-
-
 $theme-background-color : (
 
     background-primary-color: #fff,
@@ -8,7 +6,7 @@ $theme-background-color : (
 
     background-secondary-color: #f6f6f6,
 
-    background-tertiary-color: #00e8b6,
+    background-tertiary-color: #black,
     
     background-dark-color: #000, //000
 
@@ -21,7 +19,7 @@ $theme-color:(
 
     primary-color: #333333,
 
-    header-color: #03065d,
+    header-color: #black,
 
     theme-heading-color: #222222,
 
@@ -31,7 +29,7 @@ $theme-color:(
 
     eighty-six-of-link-color: #111111,
 
-    theme-link-hover-color: #01e0af,
+    theme-link-hover-color: #efff0b,
 
     secondary-link-color: #999999,
 
@@ -39,7 +37,7 @@ $theme-color:(
 
     eighty-two-of-color-white-light: #d1d1d1,
 
-    quote-color: #01e0af,
+    quote-color: #efff0b,
 
     theme-primary-border-color: #ebebeb, //#ebebeb
 
@@ -48,9 +46,9 @@ $theme-color:(
 
 $button-color: (
  
-    background-button: #01e0af,
+    background-button: #efff0b,
 
-    button-text-color: #03065d,
+    button-text-color: #white,
 
     button-hover-text-color: #fff,
 
